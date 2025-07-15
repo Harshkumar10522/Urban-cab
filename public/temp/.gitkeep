@@ -1,0 +1,15 @@
+PORT=8000
+MONGODB_URI="Mongo URI here"
+CORS_ORIGIN=*
+
+ACCESS_TOKEN_SECRET="AccressTokenSecretHere"
+ACCESS_TOKEN_EXPIRY=1d
+
+REFRESH_TOKEN_SECRET="RefreshTokenSecretHere"
+REFRESH_TOKEN_EXPIRY=10d
+
+
+
+CLOUDNARY_CLOUD_NAME="cloudinaryCloudNameHere"
+CLOUDNARY_API_KEY="cloudinaryApiKeyHere"
+CLOUDNARY_API_SECRET="cloudinaryApiSecretHere"
