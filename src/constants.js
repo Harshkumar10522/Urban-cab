@@ -1,1 +1,1 @@
-export const DB_NAME="Urban Cab"
+export const DB_NAME="Urbancab" 
