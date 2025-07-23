@@ -1,6 +1,7 @@
 import {asyncHandler} from "../utis/asyncHandler.js"
 import {Apierror} from  "../utis/Apierror.js"
 import {User} from  "../Models/user.model.js"
+import {Contact} from "../Models/contact.model.js"
  
 import { ApiResponse } from "../utis/ApiResponse.js"
 import jwt from "jsonwebtoken"
@@ -26,7 +27,6 @@ const registerUser = asyncHandler(async (req, res) => {
     if (!userName || !fullname || !email || !password || !phone) {
         throw new Apierror(400,"All fields are required");
     }
-
     const existingUser = await User.findOne({ 
         $or: [{email},{userName}]
      });
