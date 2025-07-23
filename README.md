@@ -1,4 +1,4 @@
-# ServiceHub Connect
+# Urban cab 
 
 ## Overview
 Urban cab is a backend prototype designed to manage user authentication and service requests efficiently. Built during an internship at Softcolon Technology Private Limited, this project showcases RESTful API development with secure JWT authentication and MongoDB integration.
