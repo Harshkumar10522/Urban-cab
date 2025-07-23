@@ -13,8 +13,6 @@ I will continue this project as I get some time.
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Security**: JSON Web Tokens (JWT)
-- **Logging**: Winston
-
 ## Installation
 1. Clone the repository: `git clone https://github.com/hbking00/Urban-cab.git`
 2. Navigate to the project directory: `cd Urban-cab`
