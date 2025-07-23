@@ -20,7 +20,7 @@ I will continue this project as I get some time.
 2. Navigate to the project directory: `cd Urban-cab`
 3. Install dependencies: `npm install`
 4. Set up environment variables (e.g., JWT secret) in a `.env` file.
-5. Start the server: `npm start`
+5. Start the server: `npm run dev`
 
 ## Usage
 - Register a user via `POST /register` with `{ email, password }`.
